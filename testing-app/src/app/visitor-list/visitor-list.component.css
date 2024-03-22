@@ -1,0 +1,25 @@
+.border-red {
+    border: 1px solid red;
+}
+table {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 10px;
+    padding: 10px;
+    color: #999;
+}
+
+.left{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.right{
+    background-color: #fff;
+    padding: 10px;
+}
