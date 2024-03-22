@@ -1,9 +1,46 @@
 .example-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;
-  }
-  
-  .example-full-width {
-    width: 100%;
-  }
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+input[type=text]{
+  width:100%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+input[type=text]:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  /* padding: 10px; */
+  color: #999;
+}
+.header{
+  font-size: 22px;
+  text-align: center;
+  padding: 20px;
+}
+
+form{
+  margin: 10px 20px;
+}
+
+.full-button{
+  width: 100%;
+  margin-top: 20px;
+}
