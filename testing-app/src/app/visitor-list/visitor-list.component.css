@@ -1,6 +1,7 @@
 .border-red {
     border: 1px solid red;
 }
+
 table {
     width: 100%;
 }
@@ -13,13 +14,29 @@ table {
     color: #999;
 }
 
-.left{
+.left {
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
 }
 
-.right{
+.right {
     background-color: #fff;
     padding: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+input[type=text]:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
 }
