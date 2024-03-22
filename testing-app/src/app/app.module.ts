@@ -11,6 +11,7 @@ import { MaterialModule } from './tools/material.module';
 import { APP_BASE_HREF } from '@angular/common';
 import { VisitorListComponent } from './visitor-list/visitor-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Import BrowserAnimationsModule
+import { NgxBarcodeModule } from 'ngx-barcode'; // Import BarcodeModule
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; 
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    NgxBarcodeModule
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: '/' },

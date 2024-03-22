@@ -25,6 +25,7 @@
     "@angular/router": "~10.0.5",
     "axios": "^1.6.8",
     "moment": "^2.29.1",
+    "ngx-barcode": "^0.3.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

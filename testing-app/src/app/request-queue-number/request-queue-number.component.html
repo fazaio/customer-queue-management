@@ -1,1 +1,24 @@
-<p>request-queue-number works!</p>
+<section>
+    <button mat-raised-button style="background: slateblue" (click)="changePage('')"> Home </button>
+    <div class="header-queue">
+        On Going Queue
+    </div>
+    <div class="queue-card">
+        <div class="border">
+            <p style="font-size: 22px;line-height: 0px;">ALMEGATEX</p>
+        </div>
+        <div>
+            <p>Nomor Antrian Anda:</p>
+            <p style="font-size:50px;line-height: 0px;">A-00{{dataSource.queue_number}}</p>
+            <p>Visitor: <b>{{dataSource.full_name}}</b></p>
+            <p>Mohon Menunggu</p>
+            <ngx-barcode [bc-value]="dataSource.queue_number" [bc-display-value]="false"></ngx-barcode>
+            <div class="border">
+                <p>{{ dataSource.createdAt }}</p>
+            </div>
+            <p>Budayakan antri untuk kenyamanan bersama</p>
+            <p>Terimakasih atas kunjungan anda</p>
+        </div>
+    </div>
+</section>
+

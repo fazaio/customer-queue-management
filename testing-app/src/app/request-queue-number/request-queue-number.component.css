@@ -1,0 +1,17 @@
+.queue-card{
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.border{
+    border-bottom: 5px solid gray;
+}
+
+.header-queue{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+}
